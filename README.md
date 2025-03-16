@@ -1,5 +1,6 @@
 # BU-glasses
 A texture pack for balatro that adds BU Doc's glasses to all jokers
+![cavendish](cavendish.png)
 
 # How to use
 This mod comes in two version, one using Malverk, and one using just lovely.
