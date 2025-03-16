@@ -16,7 +16,7 @@ AltTexture({
         name = 'BU glasses'
     }
 })
-TexturePack{
+TexturePack{      
     key = 'buglasses_jokers_pack',
     textures = {
         'BUGlasses_jokers'
@@ -47,6 +47,29 @@ TexturePack{
         name = 'BU glasses - light',
         text = {
             'Give Doc\'s glasses to all jokers.\nThis version has less black edges'
+        }
+    }
+}
+
+-- BU jokers
+AltTexture({
+    key = 'jokers_bu',
+    set = 'Joker',
+    path = 'Jokers_BU.png',
+    loc_txt = {
+        name = 'BU glasses - BU'
+    },
+    display_pos = 'j_scholar'
+})
+TexturePack{
+    key = 'buglasses_jokers_pack_bu',
+    textures = {
+        'BUGlasses_jokers_bu'
+    },
+    loc_txt = {
+        name = 'BU glasses - BU',
+        text = {
+            'Give Doc\'s glasses to all jokers.\nThis version uses jokers from BUMod'
         }
     }
 }
