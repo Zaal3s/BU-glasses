@@ -21,7 +21,8 @@ The Malverk version includes 3 texture packs you can choose from.
 
 ## From source
 1. Install [Lovely](https://github.com/ethangreen-dev/lovely-injector)
-2. Install [Steamodded](https://github.com/Steamodded/smods)
+2. Install [Steamodded](https://github.com/Steamodded/smods) (Optional)
+3. Install [Malverk](https://github.com/Eremel/Malverk) (Optional)
 3. Clone this repo
 4. Run `build.ps1` (right click -> Run in Powershell on Windows)
 5. The script will prompt you to install the mod automatically. If you reply yes, it will install the Malverk version if you have Malverk already installed, defaulting to the lovely version.
