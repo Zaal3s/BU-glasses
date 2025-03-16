@@ -1,0 +1,25 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 0
+
+[[patches]] #   Include nativefs module
+[patches.module]
+source = 'nativefs.lua'
+before = 'main.lua'
+name = 'nativefs'
+
+[[patches]] #   Patch Mod to main
+[patches.copy]
+target = "main.lua"
+position = "append"
+sources = ["BUGlasses.lua"]
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = "self:set_language()"
+position = "after"
+payload = "InitModBuGlasses()"
+match_indent = true
+overwrite = false
