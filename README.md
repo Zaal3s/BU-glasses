@@ -15,8 +15,8 @@ The Malverk version includes 3 texture packs you can choose from.
 
 ## Without Malverk
 1. Install [Lovely](https://github.com/ethangreen-dev/lovely-injector)
-2. Download BU-glasses-malverk.zip from the [release page](https://github.com/Zaal3s/BU-glasses/releases/latest)
-3. Extract BU-glasses-malverk folder in you Balatro Mods folder (`%AppData%\Balatro\Mods` on Windows)
+2. Download BU-glasses.zip from the [release page](https://github.com/Zaal3s/BU-glasses/releases/latest)
+3. Extract BU-glasses folder in you Balatro Mods folder (`%AppData%\Balatro\Mods` on Windows)
 
 
 ## From source
